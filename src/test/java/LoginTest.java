@@ -13,7 +13,7 @@ public class LoginTest {
         benim testim bakımı kolay ve tek bir yerde belki de 1000lerce satır kod yazmaktan ve testimi spagetti koda çevirmekten
         kurtulurum.
         Kullanacağım metotları çağırıp sırasıyla test koşumu gerçekleştiririm.
-        Login testim için kullanacağım objeler çağıralarak metotlarını koşmasını söylerim Java'ya.
+        Login testim için kullanacağım objeler çağırılarak metotlarını koşmasını söylerim Java'ya.
          */
         DriverSetUp.open("https://www.enuygun.com/");
         String checkOpenWebsite = chromeDriver.getCurrentUrl();
